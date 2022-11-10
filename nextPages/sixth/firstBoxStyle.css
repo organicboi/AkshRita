@@ -1,0 +1,58 @@
+* {
+  font-family: "Amatic SC", cursive;
+}
+
+body {
+  background-image: url("images/backgroundImage.jpg");
+  background-size: 150%;
+  font-family: "Amatic SC", cursive;
+  color: white;
+
+  /* background-repeat: no-repeat; */
+}
+.question {
+  /* position: absolute; */
+  margin-top: 0px;
+  font-family: "Amatica SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #eaff95;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.answer {
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #eaff95;
+  width: 314px;
+  height: 450px;
+  border-radius: 40px;
+  border: none;
+}
+.goBack {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: #eaff95;
+  width: 160px;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+}
+
+.goBack {
+  color: #0c0c0b;
+}

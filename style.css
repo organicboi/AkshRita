@@ -1,0 +1,156 @@
+* {
+  font-family: "Amatic SC", cursive;
+}
+body {
+  background-image: url("images/backgroundImage.jpg");
+  background-size: 150%;
+  font-family: "Amatic SC", cursive;
+  color: white;
+
+  /* background-repeat: no-repeat; */
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading > h3 {
+  font-size: 19px;
+  font-weight: 900;
+  margin: 8px;
+  letter-spacing: 0.1em;
+  color: #ffff;
+}
+
+.akshritaHeading {
+  font-family: "Amatic SC", cursive;
+  font-style: normal;
+  font-weight: 1100;
+  font-size: 59px;
+  line-height: 86px;
+  letter-spacing: 0.1em;
+  color: #eaff95;
+  margin: 8px 0 0 0;
+}
+
+.boxClass {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.boxBackground {
+  color: black;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #eaff95;
+  width: 220px;
+  /* width: 330px; */
+  height: 60px;
+  border-radius: 40px;
+  border: none;
+}
+
+.firstBox {
+  margin-right: auto;
+}
+.secondBox {
+  margin-left: auto;
+}
+.thirdBox {
+  margin-right: auto;
+}
+.fourthBox {
+  margin-left: auto;
+}
+.fifthBox {
+  margin-right: auto;
+}
+.sixthBox {
+  margin-left: auto;
+}
+.seventhBox {
+  color: white;
+  margin-top: 30px;
+  font-size: 45px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+.seventhBox > span {
+  color: #eaff95;
+  margin-bottom: 0;
+}
+
+.changeGoRight {
+  color: black;
+  background-color: white;
+  margin-right: 0;
+  margin-left: auto;
+}
+.changeGoLeft {
+  color: black;
+  background-color: white;
+  margin-left: 0;
+  margin-right: auto;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+span {
+  color: #eaff95;
+  font-size: 25px;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .diplayNoneMain {
+    display: none;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .main-container {
+    display: none;
+  }
+  .diplayNoneMain {
+    font-size: 80px;
+  }
+}
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-container {
+    display: none;
+  }
+  .diplayNoneMain {
+    font-size: 80px;
+  }
+}
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* body {
+    display: none;
+  } */
+  .main-container {
+    display: none;
+  }
+  .diplayNoneMain {
+    font-size: 80px;
+  }
+}
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .main-container {
+    display: none;
+  }
+  .diplayNoneMain {
+    font-size: 80px;
+  }
+}
